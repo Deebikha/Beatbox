@@ -1,0 +1,24 @@
+
+
+.playlist-card {
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .playlist-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .playlist-card-content {
+    padding: 10px;
+  }
+  
+  .tracks-list {
+    margin-top: 10px;
+  }
+  
+  .track {
+    padding: 5px 0;
+  }
+  

@@ -1,0 +1,60 @@
+.left-player-body {
+  width: 68%;
+  margin-right: 2%;
+  height: 100%;
+}
+
+.right-player-body {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.favorite-button {
+  background-color: #E99D72; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  margin-bottom: 20px; 
+}
+
+.favorite-button:hover {
+  background-color: #c7895e; 
+}
+
+.favorite-list {
+  background-color: #233656; 
+  padding: 20px; 
+  border-radius: 20px; 
+  margin-top: 20px; 
+  height: 100%;
+  overflow-y: auto;
+}
+
+.favorite-list-item {
+  margin-bottom: 10px; 
+  padding: 10px; 
+  background-color: #2d445f; 
+  border-radius: 10px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.favorite-list-item:hover {
+  background-color: #3a5274; 
+}
+
+.favorite-list-item img {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%; 
+  margin-right: 10px; 
+}
+
+
